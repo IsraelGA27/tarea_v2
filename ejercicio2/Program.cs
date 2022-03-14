@@ -37,7 +37,7 @@ namespace ejercico2
             Console.WriteLine("\tABARROTES MARÍA ");
             Console.WriteLine("\tVentas");
 
-
+            // Primer Articulo
             Console.WriteLine("\n\nArticulo 1");
             Console.WriteLine("\nRopa:  ");
             Console.WriteLine("Precio Ropa: 100 ");
@@ -49,7 +49,7 @@ namespace ejercico2
             Console.WriteLine("Importe : {0}", importe);
 
 
-
+            // Segundo Articulo
             Console.WriteLine("\n\nArticulo 2");
             Console.WriteLine("\nLicuadora:  ");
             Console.WriteLine("Precio Licuadora: 900 ");
@@ -61,7 +61,7 @@ namespace ejercico2
             Console.WriteLine("Importe : {0}", importe1);
 
 
-
+            // Tercer Articulo
             Console.WriteLine("\n\nArticulo 3");
             Console.WriteLine("\nLavadora:  ");
             Console.WriteLine("Precio Lavadora: 10000 ");
@@ -73,7 +73,7 @@ namespace ejercico2
             Console.WriteLine("Importe : {0}", importe2);
 
 
-
+            // Cuarto Articulo 
             Console.WriteLine("\n\nArticulo 4");
             Console.WriteLine("\nMicrondas:  ");
             Console.WriteLine("Precio Microndas: 1500 ");
@@ -85,7 +85,7 @@ namespace ejercico2
             Console.WriteLine("Importe : {0}", importe3);
 
 
-
+            // Quinto Articulo
             Console.WriteLine("\n\nArticulo 5");
             Console.WriteLine("\nComedor:  ");
           
@@ -97,8 +97,10 @@ namespace ejercico2
             importe4 = cant * PrecioComedor;
             Console.WriteLine("Importe : {0}", importe4);
 
-
+            // Ventas totales, basadas en los importes 
             sum = importe + importe1 + importe2 + importe3 + importe4;
+
+            // VamoCalmarno almacena el importe de X articulo y lo divida entre su precio para obtener la cantidad que se ah vendido.
             vamoCalmarno = (importe  / PrecioRopa);
             vamoCalmarno2 = (importe1 / PrecioLicuadora);
             vamoCalmarno3 = (importe2 / PrecioLavadora);
@@ -111,7 +113,7 @@ namespace ejercico2
             Console.WriteLine("\n\n\tCantidad de Lavadoras Vendidas: {0}", vamoCalmarno3);
             Console.WriteLine("\n\n\tCantidad de Microndas Vendidos: {0}", vamoCalmarno4);
             Console.WriteLine("\n\n\tCantidad de Comedores vendidos: {0}", vamoCalmarno5);
-            // Console.WriteLine("Variable cant ", cant); -- Esperavba que se almacenaran, pero al final se reinicia por el ciclo que lleva
+            // Console.WriteLine("Variable cant ", cant); -- Esperaba que se almacenaran, pero al final se reinicia por el ciclo que lleva
             Console.ReadKey();
         }
     }
