@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace tarea_v2
 {
-    internal class peliculas
+    internal class Peliculas
     {
     }
 }
