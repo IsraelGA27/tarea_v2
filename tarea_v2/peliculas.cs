@@ -33,7 +33,7 @@ namespace tarea_v2
         }
         public int id { get => _id; set => _id = value; }
         public string genero { get => _genero; set => _genero = value; }
-        public string franquicia { get => _franquicia; set => _franquicia = value  }
+        public string franquicia { get => _franquicia; set => _franquicia = value; }
         public string titulo { get => _titulo; set => _titulo = value; }
 
         public override string ToString()

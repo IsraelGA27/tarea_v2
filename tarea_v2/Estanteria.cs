@@ -39,13 +39,14 @@ namespace tarea_v2
         public void vaciarPeliculas()
         {
             this._pelis = new Peliculas[_limite];
+            _numPelis = 0;
         }
         public void eliminarPeliculas(Peliculas c)
         {
             if (c!= null && _numPelis != 0)
             {
                 int posicion = -1;
-                for (int i = 0; i < _pelis.Length; i++)
+                for (int i = 0; i < _numPelis; i++)
                 {
                     if(c.id == _pelis[i].id)
                     {
