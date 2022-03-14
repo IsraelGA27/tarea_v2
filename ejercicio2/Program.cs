@@ -22,12 +22,12 @@ namespace ejercico2
 
             int sum = 0; 
             int cant = 0; 
-            int importe = 0; 
+            int importe = 0; // El costo dependiendo de cuantos productos se compren basandose en cant y alguno de los precios
             int importe1 = 0; 
             int importe2 = 0; 
             int importe3 = 0; 
             int importe4 = 0;
-            int vamoCalmarno;
+            int vamoCalmarno; //  Es la cantidad de cosas que vendiste de un producto 
             int vamoCalmarno2;
             int vamoCalmarno3;
             int vamoCalmarno4;
