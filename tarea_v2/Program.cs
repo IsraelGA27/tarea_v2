@@ -12,16 +12,17 @@ namespace tarea_v2
     {
         static void Main(String[] args)
         {
-
+            
 
             Estanteria peliculas = new Estanteria(10);
-
+            // Crear las peliculas
             Peliculas c1 = new Peliculas(1, "Terror ", "VIERNES TRECE ", "VIERNES TRECE 5 ");
             Peliculas c2 = new Peliculas(2, "Ciencia Ficcion ", "STAR WARS ", "EL RETORNO DEL JEDAI ");
             Peliculas c3 = new Peliculas(3, "Fantasia ","HARRY POTTER ", "HARRY POTTER Y LA PIEDRA FILOSOFAL ");
             Peliculas c4 = new Peliculas(4, "Terror ", "VIERNES TRECE ", "VIERNES TRECE");
             Peliculas c5 = new Peliculas(5, "Terror ", "VIERNES TRECE ", "VIERNES TRECE 2 ");
 
+            // Agregar las peliculas
             peliculas.anadirPelicula(c1);
             peliculas.anadirPelicula(c2);
             peliculas.anadirPelicula(c3);
@@ -45,9 +46,6 @@ namespace tarea_v2
 
             //peliculas.mostrarPelicula();
             Console.ReadLine();
-
-
-
         }
     }
 }
