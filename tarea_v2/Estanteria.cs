@@ -70,5 +70,12 @@ namespace tarea_v2
                 }
             }
         }
+
+        // Es con sintaxis de java - Solo un ejemplo
+       // public void buscar(Peliculas[] peliculas, int id)
+        //{
+            
+
+        //}
     }
 }

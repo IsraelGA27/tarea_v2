@@ -12,6 +12,8 @@ namespace tarea_v2
     {
         static void Main(String[] args)
         {
+
+
             Estanteria peliculas = new Estanteria(10);
 
             Peliculas c1 = new Peliculas(1, "Terror ", "VIERNES TRECE ", "VIERNES TRECE 5 ");
@@ -29,6 +31,9 @@ namespace tarea_v2
             Console.WriteLine("Mostramos las Peliculas: ");
             peliculas.mostrarPelicula();
 
+            Console.WriteLine("Prueba Buscador");
+
+            peliculas.buscar("Terror");
 
             //peliculas.eliminarPeliculas(c3);
 
